@@ -301,7 +301,7 @@ h6 {
 
 .navbar-inner {
 	margin-bottom: 0px;
-  	min-height: 120px;
+  	min-height: 10px;
   	padding-right: 20px;
   	padding-left: 20px;
 	background: /*#080808*/#FFFFFF ;
@@ -397,6 +397,7 @@ a.brand span {
 	background: /*#1C2B36*/ #b74242;
 }
 
+
 .sidebar-nav > ul{
 	margin: 0px;
 	padding-bottom: 1px;
@@ -407,7 +408,7 @@ a.brand span {
 	list-style: none;
 	margin: 0px;
 	display: none;
-	background: /*rgba(0,0,0,.25)*/#b74242;
+	background: /*rgba(0,0,0,.25)*/#444444;
 }
 
 .nav-tabs.nav-stacked > li > a,
@@ -822,7 +823,7 @@ ul.messages li .message {
 }
 
 .box {
-	border: 2px solid #578EBE;
+	border: 2px solid #960001;
 	background: #fff !important;
 	margin-bottom: 28px;	
 }
@@ -832,7 +833,7 @@ ul.messages li .message {
 	font-size: 16px;
 	line-height: 16px;
   	padding: 10px;
-  	background: #578EBE;
+  	background: #960001;
 	-webkit-box-shadow: none;
      	-moz-box-shadow: none;
           box-shadow: none;
@@ -3003,3 +3004,7 @@ ul.messagesList li span.date {
 .navbar .brand{
 	font-size: 35px;
 }
+
+element.style {
+}
+

@@ -35,7 +35,7 @@
 
 /* Higher than 960 (desktop devices)
 ====================================================================== */
-@media only screen and (min-width: 980px) and (max-width: 1199px){
+@media only screen and (min-width: 980px) and (max-width: 1400px){
 	
 	.container-fluid-full {
 		overflow: hidden;
@@ -60,7 +60,7 @@
 	
 	
 	#sidebar-left {
-		background: /*#1C2B36*/#b74242;
+		background: /*#1C2B36*/#960001;
 		margin-left: 0px !important;
 		position: absolute;
 		height: 100%;
@@ -170,11 +170,11 @@
 	}
 		
 	#sidebar-left {
-		background: #1C2B36;
+		background: #960001;
 		margin-left: 0px !important;
 		position: absolute;
 		height: 100%;
-		width: 8.334% !important;
+		width: 9.9% !important;
 	}
 	
 	.sidebar-nav > ul{

@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 
@@ -230,125 +230,173 @@
             <a href="index.html">Home</a>
             <i class="icon-angle-right"></i>
         </li>
-        <li>
-            <i class="icon-edit"></i>
-            <a href="#">科研情况</a>
+        <li><a href="#">科研情况</a></li>
     </ul>
+
     <div class="row-fluid sortable">
         <div class="box span12">
             <div class="box-header" data-original-title>
-                <h2><i class="halflings-icon white edit"></i><span class="break"></span>新增代表性出版专著、教材信息</h2>
+                <h2><i class="halflings-icon white user"></i><span class="break"></span>本学位点2013年1月至2017年11月科研获奖清单</h2>
                 <div class="box-icon">
                     <a href="#" class="btn-setting"><i class="halflings-icon white wrench"></i></a>
                     <a href="#" class="btn-minimize"><i class="halflings-icon white chevron-up"></i></a>
                     <a href="#" class="btn-close"><i class="halflings-icon white remove"></i></a>
                 </div>
             </div>
-
             <div class="box-content">
-                <form class="form-horizontal">
-                    <fieldset>
-                        <div class="control-group">
-                            <label class="control-label" for="selectError3">类型</label>
-                            <div class="controls">
-                                <select id="selectError3">
-                                    <option>请选择</option>
-                                    <option>专著</option>
-                                    <option>教材</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="control-group">
-                            <label class="control-label" for="focusedInput">名称</label>
-                            <div class="controls">
-                                <input class="input-xlarge focused" id="focusedInput" type="text" value="">
-                            </div>
-                        </div>
-                        <div class="control-group">
-                            <label class="control-label" for="focusedInput">作者（*）</label>
-                            <div class="controls">
-                                <input class="input-xlarge focused" id="focusedInput" type="text" value="">
-                            </div>
-                        </div>
-                        <div class="control-group">
-                            <label class="control-label" for="focusedInput">出版时间</label>
-                            <div class="controls">
-                                <input class="input-xlarge focused" id="focusedInput" type="text" value="">
-                            </div>
-                        </div>
-                        <div class="control-group">
-                            <label class="control-label" for="focusedInput">出版社名称，ISBN</label>
-                            <div class="controls">
-                                <input class="input-xlarge focused" id="focusedInput" type="text" value="">
-                            </div>
-                        </div>
+                <table class="table table-striped table-bordered bootstrap-datatable datatable">
+                    <thead>
+                    <tr>
+                        <th>获奖级别</th>
+                        <th>2013年</th>
+                        <th>2014年</th>
+                        <th>2015年</th>
+                        <th>2016年</th>
+                        <th>2017年</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th>国家级特等奖</th>
+                        <td class="center"></td>
+                        <td class="center"></td>
+                        <td class="center"></td>
+                        <td class="center"></td>
+                        <td class="center"></td>
+                    </tr>
+                    <tr>
+                        <th>国家级一等奖</th>
+                        <td class="center"></td>
+                        <td class="center"></td>
+                        <td class="center"></td>
+                        <td class="center"></td>
+                        <td class="center"></td>
+                        <
+                    </tr>
+                    <tr>
+                        <th>国家级二等奖</th>
+                        <td class="center"></td>
+                        <td class="center"></td>
+                        <td class="center"></td>
+                        <td class="center"></td>
+                        <td class="center"></td>
+                    </tr>
+                    <tr>
+                        <th>国家级三等奖</th>
+                        <td class="center"></td>
+                        <td class="center"></td>
+                        <td class="center"></td>
+                        <td class="center"></td>
+                        <td class="center"></td>
+                        <
+                    </tr>
+                    <tr>
+                        <th>省部级特等奖</th>
+                        <td class="center"></td>
+                        <td class="center"></td>
+                        <td class="center"></td>
+                        <td class="center"></td>
+                        <td class="center"></td>
+                    </tr>
+                    <tr>
+                        <th>省部级一等奖</th>
+                        <td class="center"></td>
+                        <td class="center"></td>
+                        <td class="center"></td>
+                        <td class="center"></td>
+                        <td class="center"></td>
+                        <
+                    </tr>
+                    <tr>
+                        <th>省部级二等奖</th>
+                        <td class="center"></td>
+                        <td class="center"></td>
+                        <td class="center"></td>
+                        <td class="center"></td>
+                        <td class="center"></td>
+                    </tr>
+                    <tr>
+                        <th>省部级三等奖</th>
+                        <td class="center"></td>
+                        <td class="center"></td>
+                        <td class="center"></td>
+                        <td class="center"></td>
+                        <td class="center"></td>
+                        <
+                    </tr>
 
-                        <div class="form-actions">
-                            <button type="submit" class="btn btn-primary" >保存</button>
-                            <button class="btn">返回</button>
-                        </div>
+                    </tbody>
+
+                </table>
+                <input type="button" name="Submit" onclick="window.location.href='http://localhost:63342/degree_evaluate_h5/reward%20list.html'" value="返回" >
+
+
             </div>
-        </div>
+        </div><!--/span-->
+
+    </div><!--/row-->
+
+</div>
 
 
-        <!-- start: JavaScript-->
 
-        <script src="js/jquery-1.9.1.min.js"></script>
-        <script src="js/jquery-migrate-1.0.0.min.js"></script>
+<!-- start: JavaScript-->
 
-        <script src="js/jquery-ui-1.10.0.custom.min.js"></script>
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/jquery-migrate-1.0.0.min.js"></script>
 
-        <script src="js/jquery.ui.touch-punch.js"></script>
+<script src="js/jquery-ui-1.10.0.custom.min.js"></script>
 
-        <script src="js/modernizr.js"></script>
+<script src="js/jquery.ui.touch-punch.js"></script>
 
-        <script src="js/bootstrap.min.js"></script>
+<script src="js/modernizr.js"></script>
 
-        <script src="js/jquery.cookie.js"></script>
+<script src="js/bootstrap.min.js"></script>
 
-        <script src='js/fullcalendar.min.js'></script>
+<script src="js/jquery.cookie.js"></script>
 
-        <script src='js/jquery.dataTables.min.js'></script>
+<script src='js/fullcalendar.min.js'></script>
 
-        <script src="js/excanvas.js"></script>
-        <script src="js/jquery.flot.js"></script>
-        <script src="js/jquery.flot.pie.js"></script>
-        <script src="js/jquery.flot.stack.js"></script>
-        <script src="js/jquery.flot.resize.min.js"></script>
+<script src='js/jquery.dataTables.min.js'></script>
 
-        <script src="js/jquery.chosen.min.js"></script>
+<script src="js/excanvas.js"></script>
+<script src="js/jquery.flot.js"></script>
+<script src="js/jquery.flot.pie.js"></script>
+<script src="js/jquery.flot.stack.js"></script>
+<script src="js/jquery.flot.resize.min.js"></script>
 
-        <script src="js/jquery.uniform.min.js"></script>
+<script src="js/jquery.chosen.min.js"></script>
 
-        <script src="js/jquery.cleditor.min.js"></script>
+<script src="js/jquery.uniform.min.js"></script>
 
-        <script src="js/jquery.noty.js"></script>
+<script src="js/jquery.cleditor.min.js"></script>
 
-        <script src="js/jquery.elfinder.min.js"></script>
+<script src="js/jquery.noty.js"></script>
 
-        <script src="js/jquery.raty.min.js"></script>
+<script src="js/jquery.elfinder.min.js"></script>
 
-        <script src="js/jquery.iphone.toggle.js"></script>
+<script src="js/jquery.raty.min.js"></script>
 
-        <script src="js/jquery.uploadify-3.1.min.js"></script>
+<script src="js/jquery.iphone.toggle.js"></script>
 
-        <script src="js/jquery.gritter.min.js"></script>
+<script src="js/jquery.uploadify-3.1.min.js"></script>
 
-        <script src="js/jquery.imagesloaded.js"></script>
+<script src="js/jquery.gritter.min.js"></script>
 
-        <script src="js/jquery.masonry.min.js"></script>
+<script src="js/jquery.imagesloaded.js"></script>
 
-        <script src="js/jquery.knob.modified.js"></script>
+<script src="js/jquery.masonry.min.js"></script>
 
-        <script src="js/jquery.sparkline.min.js"></script>
+<script src="js/jquery.knob.modified.js"></script>
 
-        <script src="js/counter.js"></script>
+<script src="js/jquery.sparkline.min.js"></script>
 
-        <script src="js/retina.js"></script>
+<script src="js/counter.js"></script>
 
-        <script src="js/custom.js"></script>
-        <!-- end: JavaScript-->
+<script src="js/retina.js"></script>
+
+<script src="js/custom.js"></script>
+<!-- end: JavaScript-->
 
 </body>
 </html>
-
